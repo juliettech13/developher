@@ -1,0 +1,21 @@
+.step {
+  background: #F2F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  min-height: 100%;
+  padding: 30px;
+}
+
+.stepTitle {
+  font-family: 'Roboto Mono';
+}
+
+.stepTitleText {
+  font-size: 26px;
+  letter-spacing: 1px;
+  width: max-content;
+  font-weight: 900;
+  margin: 0;
+  border-bottom: 20px solid #CADCF5;
+  line-height: 10px;
+}
