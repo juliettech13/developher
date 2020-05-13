@@ -3,6 +3,8 @@ footer {
   width: 100%;
   font-family: 'Roboto Mono';
   height: 90px;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 footer p {
@@ -12,7 +14,12 @@ footer p {
   text-decoration: underline wavy rgb(24, 23, 68);
   text-underline-position: under;
 }
+
 footer p:hover {
   text-decoration: underline wavy yellow;
   font-weight: bold
+}
+
+footer a{
+  text-decoration: none !important
 }
