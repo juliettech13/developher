@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Programming 101`,
+    title: `<Programming-101>`,
     description: `Kick off your next project learning HTML and CSS along Admios and our great community of women.`,
-    author: `@gatsbyjs`,
+    author: `@_juliettech`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -31,5 +32,25 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              // Optional:
+
+              // the github handler whose gists are to be accessed
+              username: "juliettech13",
+
+              // a flag indicating whether the github default gist css should be included or not
+              // default: true
+              includeDefaultCss: true,
+            },
+          },
+        ],
+      },
+    },
   ],
 }

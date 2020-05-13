@@ -12,12 +12,11 @@ export default function Step(props: Props): JSX.Element {
 
   return (
     <div className="step">
-      {/* <div className="container"> */}
-        <div className="stepTitle">
-          <p className="stepTitleText">{`${stepNo} - ${stepTitle}`}</p>
-        </div>
-        <div>{children}</div>
-      {/* </div> */}
+      <div className="stepTitle">
+        <p className="stepTitleText">{`${stepNo} - ${stepTitle}`}</p>
+      </div>
+      <div className="listPadding">{children}</div>
+      <div className="separator"></div>
     </div>
   )
 }

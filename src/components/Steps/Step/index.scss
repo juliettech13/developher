@@ -4,6 +4,7 @@
   border-radius: 16px;
   min-height: 100%;
   padding: 30px;
+  font-family: 'Assistant';
 }
 
 .stepTitle {
@@ -18,4 +19,29 @@
   margin: 0;
   border-bottom: 20px solid #CADCF5;
   line-height: 10px;
+}
+
+.listPadding {
+  padding-top: 15px;
+}
+
+.linkUnderline > a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  width: max-content;
+  border-bottom: 15px solid #F7D3DF;
+  line-height: 5px;
+  &:hover {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.separator {
+  height: 25%;
+  display: block;
+  background: white
 }

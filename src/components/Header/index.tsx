@@ -6,11 +6,11 @@ interface SiteTitle {
 }
 
 export default function Header(props: SiteTitle) {
-  const {siteTitle} = props;
+  const { siteTitle } = props;
 
   return (
     <div className="mainTitle">
-      <h1 className="mainTitleText">{siteTitle}></h1>
+      <h1 className="mainTitleText">{siteTitle}</h1>
       <div className="underlineTitle" />
     </div>
   )
