@@ -12,7 +12,7 @@ export default function Setup() {
           and efficiently you can code. Spend some time here to make sure
           everything works well. If it doesn't, don't hesitate to{" "}
           <span className="linkUnderline">
-            <a href="mailto:juliette.chevaliera@admios-sa.com">reach out</a>
+            <a href="mailto:juliette.chevalier@admios-sa.com">reach out</a>
           </span>
           .
         </strong>
