@@ -35,7 +35,7 @@ export default function Html() {
             url="https://gist.github.com/juliettech13/50e5041d7ac8b7466622b264843a16e2.js"
             Loading={() => <p>Loading..</p>}
           />
-          <br/>
+          <br />
         </li>
         <li>
           <p>
@@ -135,10 +135,8 @@ export default function Html() {
                   <p>
                     You can repeat the steps provided to add an image.
                     Surprisingly, a gif is added the same way we add an image,
-                    through the{" "}
-                    <code>
-                      <img />
-                    </code>{" "}
+                    through the
+                    <code>img</code>
                     tag.
                   </p>
                 </li>
