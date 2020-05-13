@@ -1,19 +1,22 @@
 .mainTitle {
-  margin: 30px 0px
+  margin: 60px 0px;
 }
 
-.underlineTitle {
-  background: #D0CAF5;
-  padding: 10px;
-  width: 300px;
-  height: 10px;
-  margin-top: -38px;
-  margin-left: 560px
+#credit {
+  font-family: 'Assistant';
+  text-align: center;
+  padding: 10px
 }
 
 .mainTitleText {
-  text-align: center;
   font-family: 'Roboto Mono', monospace;
   color: #020140;
-  font-size: 30px
+  font-size: 30px;
+  letter-spacing: 1px;
+  width: max-content;
+  font-weight: 900;
+  margin: 0 auto;
+  border-bottom: 20px solid #D0CAF5;
+  line-height: 10px;
+  text-align: center;
 }

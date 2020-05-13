@@ -1,5 +1,25 @@
 footer {
   background: #D0CAF5;
   width: 100%;
-  font-family: 'Roboto Mono'
+  font-family: 'Roboto Mono';
+  height: 90px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+footer p {
+  padding: 20px 15px;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: underline wavy rgb(24, 23, 68);
+  text-underline-position: under;
+}
+
+footer p:hover {
+  text-decoration: underline wavy yellow;
+  font-weight: bold
+}
+
+footer a{
+  text-decoration: none !important
 }

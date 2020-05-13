@@ -23,6 +23,10 @@
 
 .listPadding {
   padding-top: 15px;
+  // &::after {
+  //   background: white;
+  //   height: 25px
+  // }
 }
 
 .linkUnderline > a {
@@ -40,8 +44,8 @@
   }
 }
 
-.separator {
-  height: 25%;
-  display: block;
-  background: white
-}
+// .separator {
+//   height: 25px;
+//   // display: block;
+//   background: white
+// }

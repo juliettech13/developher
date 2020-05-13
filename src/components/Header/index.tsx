@@ -10,8 +10,9 @@ export default function Header(props: SiteTitle) {
 
   return (
     <div className="mainTitle">
-      <h1 className="mainTitleText">{siteTitle}</h1>
-      <div className="underlineTitle" />
+      <h1 className="mainTitleText underlineTitle">{siteTitle}</h1>
+      <h4 id="credit">by Juliette Chevalier</h4>
+      {/* <img src={require("../../images/admios.png")} alt="Admios" className="tintedLogo" /> */}
     </div>
   )
 };
