@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { GithubGist } from "react-gistlab"
 import './index.scss';
 
@@ -35,6 +35,7 @@ export default function Html() {
             url="https://gist.github.com/juliettech13/50e5041d7ac8b7466622b264843a16e2.js"
             Loading={() => <p>Loading..</p>}
           />
+          <br/>
         </li>
         <li>
           <p>
@@ -66,32 +67,32 @@ export default function Html() {
             <li>
               <p>
                 Add <strong>images</strong> to some more images about your
-                hobbies to your page. In order to do that:
-                <ul>
-                  <li>
-                    <p>
-                      Create a new <code>images</code> folder, the same way we
-                      created a file, except now we will select the{" "}
-                      <strong>Create a New folder</strong> button on our left
-                      hand navigator.
-                    </p>
-                    <img src={imagesFolder} alt="Adding the new images folder"/>
-                  </li>
-                  <li>
-                    <p>
-                      Then, store the images you want to use in your page in
-                      this <code>images</code> folder.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Once you have them, call them throughout the your page by
-                      using your <code>image</code> tag like we did in the code
-                      below.
-                    </p>
-                  </li>
-                </ul>
+                hobbies to your page. In order to do that:{" "}
               </p>
+              <ul>
+                <li>
+                  <p>
+                    Create a new <code>images</code> folder, the same way we
+                    created a file, except now we will select the{" "}
+                    <strong>Create a New folder</strong> button on our left hand
+                    navigator.
+                  </p>
+                  <img src={imagesFolder} alt="Adding the new images folder" />
+                </li>
+                <li>
+                  <p>
+                    Then, store the images you want to use in your page in this{" "}
+                    <code>images</code> folder.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Once you have them, call them throughout the your page by
+                    using your <code>image</code> tag like we did in the code
+                    below.
+                  </p>
+                </li>
+              </ul>
             </li>
             <li>
               <p>

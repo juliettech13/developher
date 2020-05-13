@@ -4,19 +4,21 @@ import './index.scss'
 interface Props {
   children: JSX.Element;
   stepTitle: string;
-  stepNo: number;
+  stepNo: number | "";
 }
 
 export default function Step(props: Props): JSX.Element {
   const { children, stepTitle, stepNo } = props;
 
   return (
-    <div className="step">
-      <div className="stepTitle">
-        <p className="stepTitleText">{`${stepNo} - ${stepTitle}`}</p>
+    <>
+      <div className="step">
+        <div className="stepTitle">
+          <p className="stepTitleText">{`${stepNo} - ${stepTitle}`}</p>
+        </div>
+        <div className="listPadding">{children}</div>
       </div>
-      <div className="listPadding">{children}</div>
-      <div className="separator"></div>
-    </div>
+      <br/>
+    </>
   )
 }
