@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/developher",
   siteMetadata: {
     title: `<Programming-101>`,
     description: `Kick off your next project learning HTML and CSS along Admios and our great community of women.`,
