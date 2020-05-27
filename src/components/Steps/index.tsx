@@ -10,7 +10,7 @@ export default function Steps(): JSX.Element {
     <div>
       <Step stepTitle="SETUP" stepNo={1} children={<Setup />} />
       <Step stepTitle="HTML" stepNo={2} children={<Html />} />
-      <Step stepTitle="Coming next.." stepNo={""} children={<Css />} />
+      <Step stepTitle="CSS" stepNo={3} children={<Css />} />
       <Step stepTitle="RESOURCES" stepNo={""} children={<Resources />} />
     </div>
   )
