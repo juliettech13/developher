@@ -115,6 +115,46 @@ export default function Resources(): JSX.Element {
           </span>
           : Article about the best practices to make a single page website.
         </li>
+        <li>
+          <span className="linkUnderline">
+            <a href="https://yoksel.github.io/flex-cheatsheet/">
+              Flexbox Cheatsheet
+            </a>
+          </span>
+          : Cheatsheet helping you to better understand Flexbox and its behavior.
+        </li>
+        <li>
+          <span className="linkUnderline">
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+              A guide to Flexbox
+            </a>
+          </span>
+          : Not a cheatsheet per se, but a more in depth explanation of all the possible properties we can pass to our flex containers and flex items.
+        </li>
+        <li>
+          <span className="linkUnderline">
+            <a href="https://flexboxfroggy.com/">
+              Flexbox Froggy
+            </a>
+          </span>
+          : Game to get better using Flexbox by repositioning a frog within its pond.
+        </li>
+        <li>
+          <span className="linkUnderline">
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+              Guide to Flexbox
+            </a>
+          </span>
+          : Fun game where your job is to stop the incoming enemies from getting past your defenses using Flexbox to stop them.
+        </li>
+        <li>
+          <span className="linkUnderline">
+            <a href="https://css-tricks.com/css-media-queries/">
+              Guide to Media Queries
+            </a>
+          </span>
+          : In depth explanation about how media queries work.
+        </li>
       </ul>
     </div>
   )
