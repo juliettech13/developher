@@ -1,9 +1,10 @@
 import React from 'react';
-import Step from './Step';
-import Setup from './Setup';
-import Html from './Html';
-import Resources from './Resources';
 import Css from './Css';
+import Html from './Html';
+import Layout from './Layout';
+import Setup from './Setup';
+import Step from './Step';
+import Resources from './Resources';
 
 export default function Steps(): JSX.Element {
   return (
@@ -11,6 +12,7 @@ export default function Steps(): JSX.Element {
       <Step stepTitle="SETUP" stepNo={1} children={<Setup />} />
       <Step stepTitle="HTML" stepNo={2} children={<Html />} />
       <Step stepTitle="CSS" stepNo={3} children={<Css />} />
+      <Step stepTitle="LAYOUT" stepNo={4} children={<Layout />} />
       <Step stepTitle="RESOURCES" stepNo={""} children={<Resources />} />
     </div>
   )
