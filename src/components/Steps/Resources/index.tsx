@@ -19,12 +19,6 @@ export default function Resources(): JSX.Element {
           </span>{" "}
           In case there's something you want to look over again.
         </li>
-        {/* <li>
-          <a href="https://github.com/juliet-tech/perfil">
-            Código del Workshop
-          </a>
-          : Para referencia en el futuro
-        </li> */}
         <li>
           <span className="linkUnderline">
             <a href="https://html-css-js.com/html/tags/">HTML Cheat Sheet</a>
@@ -141,8 +135,8 @@ export default function Resources(): JSX.Element {
         </li>
         <li>
           <span className="linkUnderline">
-            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
-              Guide to Flexbox
+            <a href="http://www.flexboxdefense.com/">
+              Flexbox Defense
             </a>
           </span>
           : Fun game where your job is to stop the incoming enemies from getting past your defenses using Flexbox to stop them.

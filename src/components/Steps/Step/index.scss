@@ -23,10 +23,6 @@
 
 .listPadding {
   padding-top: 15px;
-  // &::after {
-  //   background: white;
-  //   height: 25px
-  // }
 }
 
 .linkUnderline > a {
@@ -44,8 +40,15 @@
   }
 }
 
-// .separator {
-//   height: 25px;
-//   // display: block;
-//   background: white
-// }
+.inline {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.marginLeft {
+  padding-left: 10px
+}
+
+.subTitle {
+  font-family: 'Assistant';
+}
