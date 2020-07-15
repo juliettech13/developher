@@ -149,6 +149,14 @@ export default function Resources(): JSX.Element {
           </span>
           : In depth explanation about how media queries work.
         </li>
+        <li>
+          <span className="linkUnderline">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Events">
+              DOM Events
+            </a>
+          </span>
+          : Here you can find a list of all the DOM events you can pass to Event Listeners to look out for.
+        </li>
       </ul>
     </div>
   )
