@@ -49,7 +49,7 @@ export default function Layout(): JSX.Element {
                   <p>Flexbox Defense</p>
                 </a>
               </span>
-              <p>Game to get better using Flexbox by repositioning a frog within its pond.</p>
+              <p>Fun game where your job is to stop the incoming enemies from getting past your defenses using Flexbox to stop them.</p>
             </li>
             <li>
               <span className="linkUnderline">
@@ -57,7 +57,7 @@ export default function Layout(): JSX.Element {
                   <p>Flexbox Froggy</p>
                 </a>
               </span>
-              <p>Fun game where your job is to stop the incoming enemies from getting past your defenses using Flexbox to stop them.</p>
+              <p>Game to get better using Flexbox by repositioning a frog within its pond.</p>
             </li>
           </ul>
         </li>
